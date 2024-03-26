@@ -1,0 +1,43 @@
+# Write code below 💖
+Gryffindor=0
+Ravenclaw=0
+Huffelpuff=0
+Slytherin=0
+Q1=int(input("Q1) Do you like Dawn or Dusk?\n1) Dawn\n2) Dusk\n"))
+if Q1== 1:
+  Gryffindor=+1
+  Ravenclaw =+1
+elif Q1== 2:
+  Huffelpuff=+1
+  Slytherin =+1
+else: print("wrong input.")
+
+Q2=int(input(" When I’m dead, I want people to remember me as:\n1) The Good\n2) The Great\n3) The Wise\n4) The Bold\n"))
+if Q2 == 1:
+  Huffelpuff=+2
+elif Q2==2:
+  Slytherin =+2
+elif  Q2==3:
+  Ravenclaw =+2
+elif Q2==4: 
+  Gryffindor=+2
+else: print("Wrong input.")
+
+Q3=int(input("Which kind of instrument most pleases your ear?\n1) The violin\n2) The trumpet\n3) The piano\n4) The drum\n"))
+if Q3==1:
+  Slytherin =+4
+elif Q3==2:
+  Huffelpuff=+4
+elif Q3==3:
+  Ravenclaw =+4
+elif Q3==4:
+  Gryffindor=+4
+else: print("Wrong input.")
+
+if Gryffindor>Ravenclaw and Gryffindor>Huffelpuff and Gryffindor>Slytherin:
+  print("Your house is Gryffindor")
+elif Ravenclaw> Huffelpuff and Ravenclaw >Slytherin:
+  print("Your house is Ravenclaw")
+elif Huffelpuff >Slytherin:
+  print("your house is Huffelpuff")
+else: print("your house is Slytherin")
